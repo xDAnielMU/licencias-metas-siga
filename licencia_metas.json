@@ -1,7 +1,28 @@
 {
   "app": "METAS_SIGA",
-  "estado": "ACTIVO",
   "version_min": "1.0",
-  "fecha_expira": "2026-12-31",
-  "mensaje": "Licencia válida - "
+
+  "licencias": [
+    {
+      "codigo": "TU-2026-001",
+      "estado": "ACTIVO",
+      "fecha_expira": "2026-12-31",
+      "entidad": "MEF - Oficina Presupuesto",
+      "mensaje": "Licencia activa - MEF"
+    },
+    {
+      "codigo": "MEF-2026-002",
+      "estado": "INACTIVO",
+      "fecha_expira": "2026-12-31",
+      "entidad": "MEF - Oficina Logística",
+      "mensaje": "Licencia suspendida"
+    },
+    {
+      "codigo": "SIGA-TEST-001",
+      "estado": "ACTIVO",
+      "fecha_expira": "2025-06-30",
+      "entidad": "Ambiente de pruebas",
+      "mensaje": "Licencia de prueba"
+    }
+  ]
 }
